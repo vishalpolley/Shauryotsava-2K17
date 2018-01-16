@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+		<title>Contact@Shaurya2K17</title>
+		<meta name="description" content="Contact Us" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/contact/reset.css"> <!-- CSS reset -->
+		<link rel="stylesheet" href="css/contact/style.css"> <!-- Resource style -->
+		<script src="js/contact/modernizr.js"></script> <!-- Modernizr -->
+		<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<!--Additional CSS files -->
+		<link rel="stylesheet" href="css/hover/style.css">
+		<link rel="stylesheet" href="css/social/style.css">
+		<!-- //Additional CSS files -->
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+		<!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<!-- Custom Theme files -->
+				<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91692819-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--//end-smoth-scrolling-->
+<!--Import Google Icon Font-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/contact/materialize.css" media="screen,projection" />
+<style type="text/css">
+    /* BackToTop button css */
+#scroll {
+position:fixed;
+right:10px;
+bottom:80px;
+cursor:pointer;
+width:50px;
+height:50px;
+background-color:#3498db;
+text-indent:-9999px;
+display:none;
+-webkit-border-radius:60px;
+-moz-border-radius:60px;
+border-radius:60px;
+z-index: 99;
+}
+#scroll span {
+position:absolute;
+top:50%;
+left:50%;
+margin-left:-8px;
+margin-top:-12px;
+height:0;
+width:0;
+border:8px solid transparent;
+border-bottom-color:#ffffff;
+}
+#scroll:hover {
+background-color:#e74c3c;
+opacity:1;filter:"alpha(opacity=100)";
+-ms-filter:"alpha(opacity=100)";}
+div#load_screen{
+    background: #fff;
+    opacity: 1;
+    position: fixed;
+    z-index:9999;
+    top: 0px;
+    width: 100%;
+    height: 1600px;
+}
+div#load_screen > div#loading{
+    color:#FFF;
+    width:120px;
+    height:24px;
+    margin: 300px auto;
+}
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+/* Grow Shadow */
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+</style>
+<script>
+window.addEventListener("load", function(){
+    var load_screen = document.getElementById("load_screen");
+    document.body.removeChild(load_screen);
+});
+</script>
+	</head>
+	<body>
+        <div id="load_screen"><div id="loading"><img src="images/preloader.gif" /></div></div>
+	<a href="#" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+<!-- Social Icons -->
+<ul id="social_side_links">
+	<li><a class="hvr-grow-shadow" style="background-color: #3c5a96;" href="https://www.facebook.com/shauryotsavaiet/
+" target="_blank"><img src="https://dl.dropboxusercontent.com/u/78039576/CodePen/facebook-icon.png" alt="" /></a></li>
+	<li><a class="hvr-grow-shadow" style="background-color: #1dadeb;" href="http://twitter.com" target="_blank"><img src="https://dl.dropboxusercontent.com/u/78039576/CodePen/twitter-icon.png" alt="" /></a></li>
+	<li><a class="hvr-grow-shadow" style="background-color: #1178b3;" href="http://linkedin.com" target="_blank"><img src="https://dl.dropboxusercontent.com/u/78039576/CodePen/linkedin-icon.png" alt="" /></a></li>
+</ul>
+<!--//Social Icons-->
+<!--Register -->
+	<div id="social_side_links_banner" id="register">
+	<a href="" data-toggle="modal" data-target="#myModal"><img class="hvr-bounce-in" src="images/register.png" width="200" /></a>
+	</div>
+<!--//Register-->
+	    <!--ticker-wrap-->
+		<div class="ticker-wrap">
+		<div class="ticker">
+  <div class="ticker__item">Registration for the events are now open!!</div>
+  <div class="ticker__item">IET Lucknow Shauryotsava 2k17</div>
+  <div class="ticker__item">Registration for the events are now open!! </div>
+  <div class="ticker__item">IET Lucknow Shauryotsava 2k17</div>
+</div>
+		</div>
+		<!--//ticker-wrap-->
+		<!--navigation-->
+		<!--navigation-->
+		<!-- Dropdown Structure -->
+		<ul id="dropdown1" class="dropdown-content">
+			              <li><a href="football.html">Football</a></li>
+						  <li><a href="track.html">Track</a></li>
+						  <li><a href="volleyball.html">VolleyBall</a></li>
+						  <li><a href="field.html">Field</a></li>
+						  <li><a href="badminton.html">Badminton</a></li>
+						  <li><a href="lawntennis.html">Lawn-Tennis</a></li>
+						  <li><a href="tabletennis.html">Table Tennis</a></li>
+						  <li><a href="cricket.html">Cricket</a></li>
+						  <li><a href="carrom.html">Carrom</a></li>
+						  <li><a href="chess.html">Chess</a></li>
+						  <li><a href="khokho.html">Kho-Kho</a></li>
+						  <li><a href="kabaddi.html">Kabaddi</a></li>
+						  <li><a href="taekwondo.html">Taekwondo</a></li>
+						  <li><a href="basketball.html">Basketball</a></li>		               
+        </ul>
+   <div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="http://ietshauryotsava.in/" class="brand-logo center" style="font-family: 'RacingSansOne-Regular'; font-size: 2.2em;text-shadow: 2px 2px 4px #000000">Shauryotsava</a>
+            <a href="http://ietshauryotsava.in/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="text-shadow: 2px 2px 4px #000000">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="events.html" style="text-shadow: 2px 2px 4px #000000">Events</a></li>
+                <!-- Dropdown Trigger -->
+      			<li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right" style="text-shadow: 2px 2px 4px #000000">arrow_drop_down</i></a></li>
+                <li><a href="team.html" style="text-shadow: 2px 2px 4px #000000">Organising Team</a></li>
+                <li><a href="contact.html" style="text-shadow: 2px 2px 4px #000000">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    <ul class="side-nav" id="mobile-demo">
+                <li><a href="http://ietshauryotsava.in/" class="waves-effect waves-teal">Home</a></li>
+                <li><a href="events.html" class="waves-effect waves-teal">Events</a></li>
+                <li class="no-padding">
+                <ul class="collapsible collapsible-accordion" >
+                <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Events Description</a>
+	              <div class="collapsible-body">
+	                <ul>
+                          <li><a href="football.html">Football</a></li>
+						  <li><a href="track.html">Track</a></li>
+						  <li><a href="volleyball.html">VolleyBall</a></li>
+						  <li><a href="field.html">Field</a></li>
+						  <li><a href="badminton.html">Badminton</a></li>
+						  <li><a href="lawntennis.html">Lawn-Tennis</a></li>
+						  <li><a href="tabletennis.html">Table Tennis</a></li>
+						  <li><a href="cricket.html">Cricket</a></li>
+						  <li><a href="carrom.html">Carrom</a></li>
+						  <li><a href="chess.html">Chess</a></li>
+						  <li><a href="khokho.html">Kho-Kho</a></li>
+						  <li><a href="kabaddi.html">Kabaddi</a></li>
+						  <li><a href="taekwondo.html">Taekwondo</a></li>
+						  <li><a href="basketball.html">Basketball</a></li>
+	                </ul>
+	              </div>
+                </li>
+                </ul>
+                <li><a href="team.html" class="waves-effect waves-teal">Organising Team</a></li>
+                <li><a href="contact.html" class="waves-effect waves-teal">Contact Us</a></li>
+                </li>
+            </ul>
+		<!--<div class="top-nav">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="http://ietshauryotsava.in/"> <span class="jlogo">Shaury</span>otsava </a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-center cl-effect-15">
+						<li><a href="http://ietshauryotsava.in/" data-hover="Home">Home</a></li>
+						<li><a href="http://ietshauryotsava.in/" data-hover="About">About</a></li>					
+						<li><a href="events.html" data-hover="Events">Events</a></li>
+						<li><a href="team.html" class="active" data-hover="Team">Team</a></li>
+						<li><a href="#gallery" data-hover="Gallery">Gallery</a></li>
+						<li><a href="#news" data-hover="News">News</a></li>			
+						<li><a href="#contact" data-hover="Contact">Contact</a></li>
+					</ul>	
+					<div class="clearfix"> </div>
+				</div>
+			</div>	
+		</nav>		
+	</div>	
+			<!-- script-for sticky-nav -->
+			<script>
+			$(document).ready(function() {
+				$(".button-collapse").sideNav(); 
+				 $(".dropdown-button").dropdown({ hover: true });
+			});
+			</script>
+			<!-- /script-for sticky-nav -->
+	<!--navigation-->
+	<!--Contact Us -->
+		<div class="container">	
+		<h3 class="title">Contact Us</h3>
+		<form class="cd-form floating-labels" action="contact.php" method="post">
+		<fieldset>
+
+			<div class="icon">
+				<label class="cd-label" for="cd-name" style="font-size: 1.4rem; color: #9e9e9e; font-weight: 100;">Name</label>
+				<input class="user" type="text" name="name" id="cd-name" required>
+		    </div> 
+
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-company" style="font-size: 1.4rem; color: #9e9e9e; font-weight: 100;"">College</label>
+				<input class="company" type="text" name="college" id="cd-company">
+		    </div>
+
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-company" style="font-size: 1.4rem; color: #9e9e9e; font-weight: 100;"">Contact No.</label>
+				<input class="company" type="text" name="contact" id="cd-company">
+		    </div> 
+
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-email" style="font-size: 1.4rem; color: #9e9e9e; font-weight: 100;"">Email</label>
+				<input class="email" type="email" name="email" id="cd-email" required>
+		    </div>
+
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-company" style="font-size: 1.4rem; color: #9e9e9e; font-weight: 100;"">Subject</label>
+				<input class="message" type="text" name="subject" id="cd-company" required>
+		    </div>
+
+		    <div class="icon">
+				<label class="cd-label" for="cd-textarea" style="font-size: 1.4rem; color: #9e9e9e; font-weight: 100;"">Message</label>
+      			<textarea class="message" name="message" id="cd-textarea" required></textarea>
+			</div>
+
+			<div>
+		      	<input type="submit" value="Send Message" style="font-weight: 100;">
+		    </div>
+		</fieldset>
+
+	</form>
+<script src="js/contact/jquery-2.1.1.js"></script>
+<script src="js/contact/main.js"></script> <!-- Resource jQuery -->
+		</div>
+	<!--//Contact Us -->
+<div class="container">
+	<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14230.619394258!2d80.9424081!3d26.914447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8050479fc3d919d7!2sInstitute+of+Engineering+%26+Technology!5e0!3m2!1sen!2sin!4v1484379754848" allowfullscreen></iframe>
+	</div>
+</div>
+	<!--footer-->
+	<div class="footer" style="padding-bottom: 80px">
+		<div class="container">
+			<p> &copy; 2017 Shauryotsava . All rights reserved | Designed by <a href="https://www.linkedin.com/in/vishal-polley-8b067697" target="_blank">Vishal Polley</a> , <a href="https://www.linkedin.com/in/raghvendra-sharma-722504113" target="_blank">Raghvendra Sharma</a> and <a href="https://www.linkedin.com/in/shubhranshu-maurya-731b20120" target="_blank">Shubhranshu Maurya</a></p>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--about-->
+	<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog ">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" style="font-size:32px;">&times;</button>
+          <h3 class="modal-title heading-color" style="text-align:center;color:#a94442">  REGISTRATION FORM </h3>
+        </div>
+        <div class="modal-body">
+
+ <form class="form-horizontal" role="form" method  ="post" action = "database.php" >
+
+         <div class="col-md-7 no-padding" style="margin-top:20px;">
+                                <div class="form-group">  
+
+                                       <!--List for Male-->  
+                                    <div class="col-sm-6"> 
+                                        <div class="panel panel-default">
+
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title text-center" style="color:#a94442;">
+                                                    <a data-toggle="collapse" href="#collapse1" class="" style="color:#a94442;">
+                                                        <i class="fa fa-male"></i> Events for Male Teams </a>
+                                                </h4>
+                                            </div>
+
+                                            <div id="collapse1" class="panel-collapse collapse in" style="background-color:#ffe2de">
+                                                <div class="panel-body expanded-panel">
+
+                                                    <div class="col-sm-6">
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="M-cricket"><span style="color: black;">Cricket</span></label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="M-football"><span style="color: black;">Football</span></label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="M-volleyball"><span style="color: black;">VolleyBall</span></label>
+                                                        </div>
+<div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="M-kho-kho"><span style="color: black;">Kho Kho</span></label>
+                                                        </div>
+                                                    </div> 
+
+                                                    <div class="col-sm-6">
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="M-table-tennis"><span style="color: black;">Table Tennis</span></label>
+                                                        </div>
+                                                         <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="M-athletics"><span style="color: black;">Athletics</span></label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="M-badminton"><span style="color: black;">Badminton</span></label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="M-chess"><span style="color: black;">Chess</span></label>
+                                                        </div>
+                                                    </div> 
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>              
+                                    </div>   
+
+                                    <!--List for Female-->    
+                                    <div class="col-sm-6"> 
+                                        <div class="panel panel-default">
+
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title text-center" style="color:#a94442;">
+                                                    <a data-toggle="collapse" href="#collapse2" class="" style="color:#a94442;">
+                                                        <i class="fa fa-female"></i> Events for Female Teams </a>
+                                                </h4>
+                                            </div>
+
+                                            <div id="collapse2" class="panel-collapse collapse in" style="background-color: #cff0ff;">
+                                                <div class="panel-body expanded-panel">
+
+                                                    <div class="col-sm-6">
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="F-athletics"><span style="color: black;">Athletics</span></label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="F-badminton"><span style="color: black;">Badminton</span></label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="F-chess"><span style="color: black;">Chess</span></label>
+                                                        </div>
+                                                        
+                                                    </div> 
+
+                                                    <div class="col-sm-6">
+                                                        
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="F-kho-kho"><span style="color: black;">Kho Kho</span></label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="F-table-tennis"><span style="color: black;">Table Tennis</span></label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox" class="register" name="opt[]" value="F-volleyball"><span style="color: black;">Volleyball</span></label>
+                                                        </div>
+                                                    </div> 
+
+
+                                                </div>
+                                            </div>
+                                        </div>              
+                                    </div>
+                                </div>     
+                            </div>
+
+                            <div class="col-md-5 no-padding" style="margin-top:20px;">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label heading-color" for="name" style="color: black;">Name:</label>
+                                        <input type="text" class="form-control" id="name" name = "name" placeholder="Enter Your Name" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label heading-color" for="designation" style="color: black;">Designation: </label></br>
+                                        <input type="radio" name="designation" value="Student" checked> Student<br>
+                                        <input type="radio" name="designation" value="College Coordinator"> College Coordinator<br>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label heading-color" for="college" style="color: black;">College:</label>
+                                        <input type="text" class="form-control" id="college" name = "college"  placeholder="Enter Your College Name" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label heading-color" for="city" style="color: black;">City:</label>
+                                        <input type="text" class="form-control" id="city" name = "city" placeholder="Enter City of Your College" required>
+                                    </div>
+                                </div> 
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label heading-color" for="email" style="color: black;">Email:</label>
+                                        <input type="email" class="form-control" id="email" name = "email" placeholder="Enter Your Email" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label heading-color" for="mobile" style="color: black;">Mobile:</label>    
+                                        <input type="text" class="form-control" id="mobile" name = "mobile" placeholder="Enter Your Mobile No." required>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-sm-12">
+                                    <div class="form-group "><hr>
+                                        <button type="submit"  name = "submit" class="btn btn-default btn-success btn-block"> &nbsp; Register</button>  
+                                    </div>
+                                </div>   
+
+   
+
+                       </div>
+
+</form>
+
+
+        </div>
+        <div class="modal-footer">
+         <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+        </div>
+      </div>
+      
+    </div>
+  </div>
+      <script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+</script>
+<!-- //Modal Content -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/events/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+		<script src="js/bootstrap.js"></script>
+		    <!--Import materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+	</body>
+</html>
